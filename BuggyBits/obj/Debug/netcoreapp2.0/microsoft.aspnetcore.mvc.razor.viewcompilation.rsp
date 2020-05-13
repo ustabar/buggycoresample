@@ -1,0 +1,15 @@
+C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits
+--output-path=obj\Debug\netcoreapp2.0\
+--application-name=BuggyBits
+--content-root=C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits
+--file=C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\Views\AllProducts\Index.cshtml
+--file=C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\Views\CompanyInformation\Index.cshtml
+--file=C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\Views\CreateAccount\Index.cshtml
+--file=C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\Views\FeaturedProducts\Index.cshtml
+--file=C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\Views\Home\Index.cshtml
+--file=C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\Views\Links\Index.cshtml
+--file=C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\Views\News\Index.cshtml
+--file=C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\Views\ProductInfo\Index.cshtml
+--file=C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\Views\Reviews\Index.cshtml
+--file=C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\Views\Shared\_Layout.cshtml
+--file=C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\Views\_ViewStart.cshtml

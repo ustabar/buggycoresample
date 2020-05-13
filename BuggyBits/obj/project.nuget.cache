@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "KHp0WiDwF8pAaJs8MP7t0qwXqqLUuy3vs9ILSNrip33p49z9JDZLfxoDDB5o0BjvMJOOCFSYtrs/nezg/hKrtQ==",
+  "success": true,
+  "projectFilePath": "/home/barut/src/BuggyBits/BuggyBits.csproj",
+  "expectedPackageFiles": [
+    "/home/barut/.nuget/packages/microsoft.netcore.app.ref/3.0.0/microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "/home/barut/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "/home/barut/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.0.3/microsoft.netcore.app.host.linux-x64.3.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

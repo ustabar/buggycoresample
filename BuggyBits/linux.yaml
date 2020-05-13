@@ -1,0 +1,43 @@
+---
+- hosts: linux_servers
+  remote_user: root
+  tasks:
+  # Install NGINX
+  - name: ensure NGINX is installed
+    apt: pkg=nginx state=present
+
+  # Configure NGINX
+  - name: copy NGINX site config
+    copy: 
+      src: files/nginx/app
+      dest: /home/barut/
+      owner: root
+      group: root
+      mode: 0644
+    notify: restart nginx
+
+  - name: remove default website from nginx
+    file: path=/etc/nginx/sites-enabled/default state=absent
+
+  # Copy SSL Certificate
+  - name: Copy SSL cert
+    copy: src=files/ssl/certificate.crt dest=/etc/nginx/certificate.crt
+    notify: restart nginx
+
+  - name: Copy SSL private key
+    copy: src=files/ssl/privateKey.key dest=/etc/nginx/privateKey.key
+    notify: restart nginx
+
+  # Punch out http/https ports in firewall (If you use UFW)
+  - name: Allow 80 through firewall
+    ufw: rule=allow direction=in proto=tcp port=80
+
+  - name: Allow 443 through firewall
+    ufw: rule=allow direction=in proto=tcp port=443 
+
+  - name: Allow 5000 through firewall
+    ufw: rule=allow direction=in proto=tcp port=5000 
+
+  handlers:
+  - name: restart nginx
+    service: name=nginx state=restarted

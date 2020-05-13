@@ -1,0 +1,21 @@
+---
+- hosts: webservers
+
+# Define variables
+  vars:
+    site_path: "c:\\inetpub\\wwwroot\\mynewsite"
+    default_index_file: "index.html"
+  
+  tasks:
+
+# Remove My new Web Site
+  - name: Remove My New Site
+    win_iis_website:
+      name: "My New Site"
+      state: absent
+
+# Remove directory
+  - name: Remove website directory
+    win_file:
+      path: "{{ site_path }}"
+      state: absent

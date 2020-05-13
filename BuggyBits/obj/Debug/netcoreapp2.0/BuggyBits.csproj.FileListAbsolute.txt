@@ -1,0 +1,11 @@
+C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\bin\Debug\netcoreapp2.0\BuggyBits.deps.json
+C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\bin\Debug\netcoreapp2.0\BuggyBits.runtimeconfig.json
+C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\bin\Debug\netcoreapp2.0\BuggyBits.runtimeconfig.dev.json
+C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\bin\Debug\netcoreapp2.0\BuggyBits.dll
+C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\bin\Debug\netcoreapp2.0\BuggyBits.pdb
+C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\obj\Debug\netcoreapp2.0\BuggyBits.csprojAssemblyReference.cache
+C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\obj\Debug\netcoreapp2.0\BuggyBits.csproj.CoreCompileInputs.cache
+C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\obj\Debug\netcoreapp2.0\BuggyBits.AssemblyInfoInputs.cache
+C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\obj\Debug\netcoreapp2.0\BuggyBits.AssemblyInfo.cs
+C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\obj\Debug\netcoreapp2.0\BuggyBits.dll
+C:\Analiz\Ziraat\CoreBuggy\buggy-bits-core-master\src\BuggyBits\obj\Debug\netcoreapp2.0\BuggyBits.pdb
